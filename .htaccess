@@ -1,5 +1,0 @@
-RewriteEngine on
-RewriteBase /gha_test
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)\.htm$ https://raw.nipp.es/$1.htm [NC]
